@@ -1,0 +1,4461 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.css-font-1 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.css-color-1 {
+  color: #222;
+}
+
+.css-color-2 {
+  color: #333;
+}
+
+.css-family {
+  font-family: "Playfair Display", serif;
+}
+
+.css-color-primary {
+  /*  */
+}
+
+.css-bg-primary {
+  background-color: #112db2 !important;
+}
+
+.css-section-bg {
+  background-color: #f5f5f5;
+}
+
+.css-text-primary {
+  color: #fe4d00;
+}
+
+.instagram {
+  width: 100px;
+  height: 100px;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+/* test  */
+
+/* system  */
+
+/*! CSS Used from: https://hwhitehouse.edu.np/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-cdb869a14bb0ecbf9c771eeb4882cb6f.css ; media=all */
+@media all {
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  a {
+    background-color: transparent;
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  a {
+    color: var(--global-palette-highlight);
+    transition: all 0.1s linear;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    color: var(--global-palette-highlight-alt);
+  }
+  a:hover,
+  a:active {
+    outline: 0;
+  }
+  :where(html:not(.no-js)) .hide-focus-outline *:focus {
+    outline: 0;
+  }
+  ::placeholder {
+    color: var(--global-palette6);
+  }
+  .site-container {
+    margin: 0 auto;
+    padding: 0 var(--global-content-edge-padding);
+  }
+  .kadence-breadcrumbs {
+    margin: 1em 0;
+    font-size: 85%;
+    color: var(--global-palette5);
+  }
+  .kadence-breadcrumbs a {
+    color: inherit;
+  }
+  .kadence-breadcrumbs p {
+    margin: 0;
+  }
+  .entry-hero-container-inner {
+    background: var(--global-palette7);
+  }
+  .entry-hero-container-inner .entry-header {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .entry-hero-container-inner .entry-header > div {
+    width: 100%;
+  }
+  .entry-hero {
+    position: relative;
+  }
+  .hero-section-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .hero-container {
+    position: relative;
+  }
+  .title-align-left {
+    text-align: left;
+  }
+  .entry-hero .title-align-left {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .entry-header {
+    margin-bottom: 1em;
+  }
+  .entry-title {
+    word-wrap: break-word;
+  }
+}
+/*! CSS Used from: Embedded */
+h1 {
+  font-family: var(--global-heading-font-family);
+}
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 1.5;
+  color: var(--global-palette3);
+}
+.entry-hero h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+}
+.entry-hero .kadence-breadcrumbs {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--global-palette1);
+}
+.entry-hero .kadence-breadcrumbs {
+  max-width: 1170px;
+}
+.site-container {
+  max-width: var(--global-content-width);
+}
+.content-width-narrow .hero-container.site-container {
+  max-width: var(--global-content-narrow-width);
+}
+.page-hero-section .entry-hero-container-inner {
+  background-image: url("/education-consultancy-bg.webp");
+  background-repeat: no-repeat;
+  background-position: 78% 55%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.entry-hero.page-hero-section .entry-header {
+  min-height: 300px;
+}
+/*! CSS Used from: https://hwhitehouse.edu.np/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-cdb869a14bb0ecbf9c771eeb4882cb6f.css ; media=all */
+@media all {
+  ul {
+    box-sizing: border-box;
+  }
+  .has-drop-cap:not(:focus):first-letter {
+    float: left;
+    font-size: 8.4em;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 0.68;
+    margin: 0.05em 0.1em 0 0;
+    text-transform: uppercase;
+  }
+  .entry-content {
+    counter-reset: footnotes;
+  }
+  main {
+    display: block;
+    min-width: 0;
+  }
+  a {
+    background-color: transparent;
+  }
+  strong {
+    font-weight: bold;
+  }
+  img {
+    border-style: none;
+  }
+  h2,
+  h4 {
+    padding: 0;
+    margin: 0;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  ul {
+    margin: 0 0 1.5em 1.5em;
+    padding: 0;
+  }
+  ul {
+    list-style: disc;
+  }
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  a {
+    color: var(--global-palette-highlight);
+    transition: all 0.1s linear;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    color: var(--global-palette-highlight-alt);
+  }
+  a:hover,
+  a:active {
+    outline: 0;
+  }
+  :where(html:not(.no-js)) .hide-focus-outline *:focus {
+    outline: 0;
+  }
+  ::placeholder {
+    color: var(--global-palette6);
+  }
+  .content-area {
+    margin: var(--global-xxl-spacing) 0;
+  }
+  .entry-content {
+    word-break: break-word;
+  }
+  .site-container {
+    margin: 0 auto;
+    padding: 0 var(--global-content-edge-padding);
+  }
+  .content-bg {
+    background: white;
+  }
+  .has-drop-cap:not(:focus):first-letter {
+    float: left;
+    line-height: 1;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0 0.125em 0 0;
+    text-transform: uppercase;
+  }
+  .entry {
+    box-shadow: 0px 15px 25px -10px rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem;
+  }
+  .content-wrap {
+    position: relative;
+  }
+  @media screen and (max-width: 719px) {
+    .content-style-boxed .content-bg:not(.loop-entry) {
+      margin-left: -1rem;
+      margin-right: -1rem;
+      width: auto;
+    }
+  }
+  .single-content {
+    margin: var(--global-md-spacing) 0 0;
+  }
+  .single-content p {
+    margin-top: 0;
+    margin-bottom: var(--global-md-spacing);
+  }
+  .single-content h2,
+  .single-content h4 {
+    margin: 1.5em 0 0.5em;
+  }
+  .single-content h2 + *,
+  .single-content h4 + * {
+    margin-top: 0;
+  }
+  .single-content ul {
+    margin: 0 0 var(--global-md-spacing);
+    padding-left: 2em;
+  }
+  .single-content p:last-child {
+    margin-bottom: 0;
+  }
+  .entry-content:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  .content-title-style-above .entry-content {
+    margin: 0;
+  }
+  .wp-site-blocks .post-thumbnail {
+    display: block;
+    height: 0;
+    padding-bottom: 66.67%;
+    overflow: hidden;
+    position: relative;
+  }
+  .wp-site-blocks .post-thumbnail.kadence-thumbnail-ratio-1-2 {
+    padding-bottom: 50%;
+  }
+  .wp-site-blocks .post-thumbnail .post-thumbnail-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .wp-site-blocks .post-thumbnail img {
+    flex: 1;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .wp-site-blocks .post-thumbnail:not(.kadence-thumbnail-ratio-inherit) img {
+    height: 100%;
+    width: 100%;
+  }
+}
+/*! CSS Used from: Embedded */
+.content-bg {
+  background: var(--global-palette9);
+}
+h2,
+h4 {
+  font-family: var(--global-heading-font-family);
+}
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  color: var(--global-palette1);
+}
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--global-palette4);
+}
+.site-container {
+  max-width: var(--global-content-width);
+}
+.content-width-narrow .content-container.site-container {
+  max-width: var(--global-content-narrow-width);
+}
+.content-area {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+@media all and (max-width: 1024px) {
+  .content-area {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .content-area {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.entry-content-wrap {
+  padding: 2rem;
+}
+@media all and (max-width: 1024px) {
+  .entry-content-wrap {
+    padding: 2rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .entry-content-wrap {
+    padding: 1.5rem;
+  }
+}
+.entry.single-entry {
+  box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.05);
+}
+/*! CSS Used from: https://hwhitehouse.edu.np/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-e59556eff548ba484e837ed51d308915.css ; media=all */
+@media all {
+  ol,
+  ul {
+    box-sizing: border-box;
+  }
+  :root :where(.wp-block-list.has-background) {
+    padding: 1.25em 2.375em;
+  }
+  .wp-block-quote {
+    box-sizing: border-box;
+  }
+  .wp-block-quote {
+    overflow-wrap: break-word;
+  }
+  .wp-block-separator {
+    border: none;
+    border-top: 2px solid;
+  }
+  .wp-block-spacer {
+    clear: both;
+  }
+  .wp-block-table {
+    overflow-x: auto;
+  }
+  .wp-block-table table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .wp-block-table thead {
+    border-bottom: 3px solid;
+  }
+  .wp-block-table td,
+  .wp-block-table th {
+    border: 1px solid;
+    padding: 0.5em;
+  }
+  .wp-block-table.is-style-stripes {
+    background-color: initial;
+    border-bottom: 1px solid #f0f0f0;
+    border-collapse: inherit;
+    border-spacing: 0;
+  }
+  .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+  .wp-block-table.is-style-stripes td,
+  .wp-block-table.is-style-stripes th {
+    border-color: #0000;
+  }
+  .entry-content {
+    counter-reset: footnotes;
+  }
+  .has-text-align-center {
+    text-align: center;
+  }
+  .has-text-align-left {
+    text-align: left;
+  }
+  :where(figure) {
+    margin: 0 0 1em;
+  }
+  main {
+    display: block;
+    min-width: 0;
+  }
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  a {
+    background-color: transparent;
+  }
+  strong {
+    font-weight: bold;
+  }
+  img {
+    border-style: none;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    padding: 0;
+    margin: 0;
+  }
+  h5 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  em,
+  i {
+    font-style: italic;
+  }
+  blockquote {
+    quotes: "“" "”";
+  }
+  blockquote {
+    padding-left: 1em;
+    border-left: 4px solid var(--global-palette4);
+  }
+  .entry-content blockquote {
+    margin: 0 0 var(--global-md-spacing);
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  hr {
+    height: 0;
+    border: 0;
+    border-bottom: 2px solid var(--global-gray-400);
+  }
+  ul,
+  ol {
+    margin: 0 0 1.5em 1.5em;
+    padding: 0;
+  }
+  ul {
+    list-style: disc;
+  }
+  ol {
+    list-style: decimal;
+  }
+  li > ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+  }
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  figure {
+    margin: 0.5em 0;
+  }
+  table {
+    margin: 0 0 1.5em;
+    width: 100%;
+  }
+  a {
+    color: var(--global-palette-highlight);
+    transition: all 0.1s linear;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    color: var(--global-palette-highlight-alt);
+  }
+  a:hover,
+  a:active {
+    outline: 0;
+  }
+  :where(html:not(.no-js)) .hide-focus-outline *:focus {
+    outline: 0;
+  }
+  ::placeholder {
+    color: var(--global-palette6);
+  }
+  :root .has-theme-palette-2-background-color {
+    background-color: var(--global-palette2);
+  }
+  :root .has-theme-palette-2-color {
+    color: var(--global-palette2);
+  }
+  :root .has-theme-palette-3-color {
+    color: var(--global-palette3);
+  }
+  :root .has-theme-palette-7-background-color {
+    background-color: var(--global-palette7);
+  }
+  .content-area {
+    margin: var(--global-xxl-spacing) 0;
+  }
+  .entry-content {
+    word-break: break-word;
+  }
+  .entry-content table {
+    word-break: normal;
+  }
+  .site-container {
+    margin: 0 auto;
+    padding: 0 var(--global-content-edge-padding);
+  }
+  .content-bg {
+    background: white;
+  }
+  .single-content .wp-block-quote p {
+    margin-bottom: var(--global-sm-spacing);
+  }
+  .single-content .wp-block-quote p:last-child {
+    margin-bottom: 0;
+  }
+  .wp-block-table {
+    border-collapse: collapse;
+  }
+  .wp-block-table table {
+    border-collapse: collapse;
+  }
+  .wp-block-table thead {
+    border-bottom: 3px solid var(--global-palette6);
+  }
+  .wp-block-table td,
+  .wp-block-table th {
+    padding: 0.5em;
+    border: 1px solid var(--global-palette6);
+    word-break: normal;
+  }
+  .wp-block-table.is-style-stripes thead {
+    border-bottom: 0;
+  }
+  .wp-block-table.is-style-stripes td,
+  .wp-block-table.is-style-stripes th {
+    border: 0;
+  }
+  .wp-block-separator {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    max-width: 160px;
+  }
+  .wp-block-separator.has-background:not(.is-style-dots) {
+    border-bottom: none;
+    height: 1px;
+  }
+  .wp-block-separator.has-background:not(.is-style-dots):not(.is-style-wide) {
+    height: 2px;
+  }
+  .entry {
+    box-shadow: 0px 15px 25px -10px rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem;
+  }
+  .content-wrap {
+    position: relative;
+  }
+  @media screen and (max-width: 719px) {
+    .content-style-boxed .content-bg:not(.loop-entry) {
+      margin-left: -1rem;
+      margin-right: -1rem;
+      width: auto;
+    }
+  }
+  .single-content {
+    margin: var(--global-md-spacing) 0 0;
+  }
+  .single-content figure,
+  .single-content hr,
+  .single-content p,
+  .single-content table,
+  .single-content [class*="__inner-content"] {
+    margin-top: 0;
+    margin-bottom: var(--global-md-spacing);
+  }
+  .single-content h2,
+  .single-content h3,
+  .single-content h4,
+  .single-content h5 {
+    margin: 1.5em 0 0.5em;
+  }
+  .single-content h2:first-child,
+  .single-content h5:first-child {
+    margin-top: 0;
+  }
+  .single-content h2 + *,
+  .single-content h3 + *,
+  .single-content h4 + *,
+  .single-content h5 + * {
+    margin-top: 0;
+  }
+  .single-content ul,
+  .single-content ol {
+    margin: 0 0 var(--global-md-spacing);
+    padding-left: 2em;
+  }
+  .single-content li > ol {
+    margin: 0;
+  }
+  .single-content p:last-child,
+  .single-content table:last-child,
+  .single-content h5:last-child,
+  .single-content ul:last-child,
+  .single-content ol:last-child {
+    margin-bottom: 0;
+  }
+  .entry-content:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  .content-title-style-above .entry-content {
+    margin: 0;
+  }
+  .wp-site-blocks .post-thumbnail {
+    display: block;
+    height: 0;
+    padding-bottom: 66.67%;
+    overflow: hidden;
+    position: relative;
+  }
+  .wp-site-blocks .post-thumbnail.kadence-thumbnail-ratio-1-2 {
+    padding-bottom: 50%;
+  }
+  .wp-site-blocks .post-thumbnail .post-thumbnail-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .wp-site-blocks .post-thumbnail img {
+    flex: 1;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .wp-site-blocks .post-thumbnail:not(.kadence-thumbnail-ratio-inherit) img {
+    height: 100%;
+    width: 100%;
+  }
+  .alignwide,
+  .entry-content .alignwide {
+    margin-left: calc(50% - (var(--global-vw, 100vw) / 2));
+    margin-right: calc(50% - (var(--global-vw, 100vw) / 2));
+    max-width: 842px;
+    margin: 0 auto;
+    width: var(--global-vw, 100vw);
+    padding-left: 0;
+    padding-right: 0;
+    clear: both;
+  }
+  @media screen and (min-width: 1025px) {
+    .content-width-narrow .entry-content .alignwide,
+    .content-width-narrow .content-area .alignwide {
+      margin-left: -80px;
+      margin-right: -80px;
+      width: auto;
+    }
+  }
+  .content-style-boxed .entry-content .alignwide {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    max-width: unset;
+    width: unset;
+  }
+  .wp-block-getwid-table-of-contents.is-style-ordered
+    .wp-block-getwid-table-of-contents__list {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .wp-block-getwid-table-of-contents.is-style-ordered ol {
+    counter-reset: item;
+    list-style: none;
+  }
+  .wp-block-getwid-table-of-contents.is-style-ordered li {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .wp-block-getwid-table-of-contents.is-style-ordered li:after {
+    display: none;
+  }
+  .wp-block-getwid-table-of-contents.is-style-ordered li:before {
+    content: counters(item, ".") ".";
+    counter-increment: item;
+    margin-right: 0.5em;
+  }
+  .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  .fa-minus:before {
+    content: "\f068";
+  }
+  .fa-plus:before {
+    content: "\f067";
+  }
+  .fas {
+    font-family: "Font Awesome 5 Free";
+  }
+  .fas {
+    font-weight: 900;
+  }
+  .wp-block-getwid-section {
+    position: relative;
+  }
+  .wp-block-getwid-section__wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 1em;
+    min-width: 70px;
+  }
+  .wp-block-getwid-section__background-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .wp-block-getwid-section__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .wp-block-getwid-section__foreground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .wp-block-getwid-section__inner-wrapper {
+    width: 100%;
+    max-width: 768px;
+  }
+  .wp-block-getwid-section__content {
+    position: relative;
+    z-index: 1;
+  }
+  .wp-block-getwid-accordion {
+    width: 100%;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header {
+    margin: 0;
+    padding: 0.5em 0.75em;
+    border: 0;
+    width: 100%;
+    display: block;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header:after,
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header:before {
+    display: none;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header-wrapper {
+    padding: 0;
+    border: 1px solid #eee;
+    border-top: 0;
+  }
+  .wp-block-getwid-accordion
+    .wp-block-getwid-accordion__header-wrapper:first-child {
+    border: 1px solid #eee;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header-wrapper a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-decoration: none !important;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header-wrapper a:after,
+  .wp-block-getwid-accordion
+    .wp-block-getwid-accordion__header-wrapper
+    a:before {
+    display: none;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header-wrapper a:focus,
+  .wp-block-getwid-accordion
+    .wp-block-getwid-accordion__header-wrapper
+    a:hover {
+    outline: 0;
+    border: 0;
+    text-decoration: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .wp-block-getwid-accordion
+    .wp-block-getwid-accordion__header-wrapper
+    a:focus:after,
+  .wp-block-getwid-accordion
+    .wp-block-getwid-accordion__header-wrapper
+    a:focus:before,
+  .wp-block-getwid-accordion
+    .wp-block-getwid-accordion__header-wrapper
+    a:hover:after,
+  .wp-block-getwid-accordion
+    .wp-block-getwid-accordion__header-wrapper
+    a:hover:before {
+    display: none;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header:focus {
+    outline: 0;
+  }
+  .wp-block-getwid-accordion .wp-block-getwid-accordion__header:hover {
+    cursor: pointer;
+  }
+  .wp-block-getwid-accordion__icon {
+    font-size: inherit;
+    margin: 0 0 0 0.75em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .wp-block-getwid-accordion__icon.is-passive {
+    display: none;
+  }
+  .wp-block-getwid-accordion__icon i {
+    font-size: 0.75em;
+  }
+  .wp-block-getwid-accordion__content {
+    padding: 1.5em;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  .wp-block-getwid-accordion__content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .wp-block-getwid-accordion__content > :first-child {
+    margin-top: 0;
+  }
+  .wp-block-getwid-accordion__content > :last-child {
+    margin-bottom: 0;
+  }
+  .wp-block-getwid-accordion__content-wrapper {
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    display: block !important;
+  }
+}
+/*! CSS Used from: Embedded */
+.has-pale-ocean-gradient-background {
+  background: var(--wp--preset--gradient--pale-ocean) !important;
+}
+/*! CSS Used from: Embedded */
+.content-bg {
+  background: var(--global-palette9);
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--global-heading-font-family);
+}
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  color: var(--global-palette1);
+}
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--global-palette3);
+}
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--global-palette4);
+}
+h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--global-palette4);
+}
+.site-container {
+  max-width: var(--global-content-width);
+}
+.content-width-narrow .content-container.site-container {
+  max-width: var(--global-content-narrow-width);
+}
+@media all and (min-width: 1400px) {
+  .wp-site-blocks .content-container .alignwide {
+    margin-left: -115px;
+    margin-right: -115px;
+    width: unset;
+    max-width: unset;
+  }
+}
+@media all and (min-width: 1102px) {
+  .content-width-narrow .wp-site-blocks .content-container .alignwide {
+    margin-left: -130px;
+    margin-right: -130px;
+    width: unset;
+    max-width: unset;
+  }
+}
+.content-style-boxed .wp-site-blocks .entry-content .alignwide {
+  margin-left: calc(-1 * var(--global-content-boxed-padding));
+  margin-right: calc(-1 * var(--global-content-boxed-padding));
+}
+.content-area {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+@media all and (max-width: 1024px) {
+  .content-area {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .content-area {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.entry-content-wrap {
+  padding: 2rem;
+}
+@media all and (max-width: 1024px) {
+  .entry-content-wrap {
+    padding: 2rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .entry-content-wrap {
+    padding: 1.5rem;
+  }
+}
+.entry.single-entry {
+  box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.05);
+}
+/*! CSS Used from: Embedded */
+.wp-block-getwid-section
+  .wp-block-getwid-section__wrapper
+  .wp-block-getwid-section__inner-wrapper {
+  max-width: 1170px;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-regular-400.eot);
+  src: url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-regular-400.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-regular-400.woff2)
+      format("woff2"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-regular-400.woff)
+      format("woff"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-regular-400.ttf)
+      format("truetype"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-regular-400.svg#fontawesome)
+      format("svg");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-solid-900.eot);
+  src: url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-solid-900.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-solid-900.woff2)
+      format("woff2"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-solid-900.woff)
+      format("woff"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-solid-900.ttf)
+      format("truetype"),
+    url(https://hwhitehouse.edu.np/wp-content/plugins/getwid/vendors/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome)
+      format("svg");
+  font-display: swap;
+}
+#navbar-default ul {
+  list-style-type: none !important;
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/eetkdcqw/lu45.css ; media=all */
+@media all {
+  section {
+    display: block;
+  }
+  a {
+    background: transparent;
+  }
+  a:focus {
+    outline: thin dotted;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  *,
+  *:after,
+  *:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=3.3.7 ; media=all */
+@media all {
+  section {
+    display: block;
+  }
+  a {
+    background-color: transparent;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  h1 {
+    margin: 0.67em 0;
+    font-size: 2em;
+  }
+  @media print {
+    *,
+    :after,
+    :before {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: 0 0 !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:focus,
+  a:hover {
+    color: #23527c;
+    text-decoration: underline;
+  }
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  .breadcrumb > li {
+    display: inline-block;
+  }
+  .breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+  }
+  .breadcrumb > .active {
+    color: #777;
+  }
+  .clearfix:after,
+  .clearfix:before,
+  .container:after,
+  .container:before {
+    display: table;
+    content: " ";
+  }
+  .clearfix:after,
+  .container:after {
+    clear: both;
+  }
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/7uxrqgny/lu45.css ; media=all */
+@media all {
+  a {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:focus,
+  a:visited {
+    outline: none;
+    text-decoration: none;
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+  }
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 36px;
+    }
+  }
+  ol {
+    padding-left: 20px;
+  }
+  ol li {
+    margin-bottom: 5px;
+  }
+  .page_banner_top {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .page_banner_top .page_banner_top_overlay {
+    display: flex;
+    align-items: center;
+    background: rgb(254, 77, 0, 0.8);
+    min-height: 200px;
+    padding: 20px 0;
+    height: auto;
+  }
+  .page_banner_top .breadcrumb {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+  }
+  .page_banner_top .breadcrumb li {
+    color: #fff;
+  }
+  .page_banner_top .breadcrumb li.active {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .page_banner_top .breadcrumb li.active:before {
+    color: #fff;
+  }
+  .page_banner_top .breadcrumb li a {
+    color: #fff;
+  }
+  .page_banner_top .breadcrumb li a:hover {
+    color: #e02b44;
+  }
+  @media only screen and (max-width: 567px) {
+    *,
+    *:after,
+    *:before {
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+  }
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/gqkyq3p/lu45.css ; media=all */
+@media all {
+  .wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+  }
+  .wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #00a0d2;
+  }
+  .wpcf7 form.init .wpcf7-response-output {
+    display: none;
+  }
+  .wpcf7-form-control-wrap {
+    position: relative;
+  }
+  .wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+  }
+  .wpcf7-list-item-label::before,
+  .wpcf7-list-item-label::after {
+    content: " ";
+  }
+  .wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+  }
+  .wpcf7-spinner::before {
+    content: "";
+    position: absolute;
+    background-color: #fbfbfc;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wpcf7-spinner::before {
+      animation-name: blink;
+      animation-duration: 2000ms;
+    }
+  }
+  .wpcf7 .wpcf7-submit:disabled {
+    cursor: not-allowed;
+  }
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="tel"] {
+    direction: ltr;
+  }
+}
+/*! CSS Used from: Embedded */
+.wpcf7 .wpcf7-recaptcha iframe {
+  margin-bottom: 0;
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/eetkdcqw/lu45.css ; media=all */
+@media all {
+  #altEmail_container,
+  .altEmail_container {
+    position: absolute !important;
+    overflow: hidden !important;
+    display: inline !important;
+    height: 1px !important;
+    width: 1px !important;
+    z-index: -1000 !important;
+  }
+  .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .fa-plus:before {
+    content: "\f067";
+  }
+  .fa-minus:before {
+    content: "\f068";
+  }
+  .fa-angle-double-right:before {
+    content: "\f101";
+  }
+  .fa-angle-double-down:before {
+    content: "\f103";
+  }
+  .wpsm_panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .wpsm_panel-body {
+    padding: 15px;
+  }
+  .wpsm_panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .wpsm_panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+  }
+  .wpsm_panel-title > a {
+    color: inherit;
+  }
+  .wpsm_panel-group {
+    margin-bottom: 20px;
+  }
+  .wpsm_panel-group .wpsm_panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+  }
+  .wpsm_panel-group .wpsm_panel + .wpsm_panel {
+    margin-top: 5px;
+  }
+  .wpsm_panel-group .wpsm_panel-heading {
+    border-bottom: 0;
+  }
+  .wpsm_panel-group
+    .wpsm_panel-heading
+    + .wpsm_panel-collapse
+    > .wpsm_panel-body {
+    border-top: 1px solid #ddd;
+  }
+  .wpsm_panel-default {
+    border-color: #ddd;
+  }
+  .wpsm_panel-default > .wpsm_panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+  }
+  .wpsm_panel-default
+    > .wpsm_panel-heading
+    + .wpsm_panel-collapse
+    > .wpsm_panel-body {
+    border-top-color: #ddd;
+  }
+  .wpsm_panel-group .collapse {
+    display: none;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+  figure,
+  section {
+    display: block;
+  }
+  a {
+    background: transparent;
+  }
+  a:focus {
+    outline: thin dotted;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  strong {
+    font-weight: bold;
+  }
+  mark {
+    background: #ff0;
+    color: #000;
+  }
+  img {
+    border: 0;
+  }
+  figure {
+    margin: 0;
+  }
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+  }
+  input {
+    line-height: normal;
+  }
+  select {
+    text-transform: none;
+  }
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  textarea {
+    overflow: auto;
+    vertical-align: top;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  *,
+  *:after,
+  *:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=3.3.7 ; media=all */
+@media all {
+  figure,
+  section {
+    display: block;
+  }
+  a {
+    background-color: transparent;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  strong {
+    font-weight: 700;
+  }
+  mark {
+    color: #000;
+    background: #ff0;
+  }
+  img {
+    border: 0;
+  }
+  figure {
+    margin: 1em 40px;
+  }
+  input,
+  select,
+  textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+  }
+  select {
+    text-transform: none;
+  }
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  input {
+    line-height: normal;
+  }
+  input[type="checkbox"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  textarea {
+    overflow: auto;
+  }
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding: 0;
+  }
+  @media print {
+    *,
+    :after,
+    :before {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: 0 0 !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+    a[href^="javascript:"]:after {
+      content: "";
+    }
+    img,
+    tr {
+      page-break-inside: avoid;
+    }
+    img {
+      max-width: 100% !important;
+    }
+    h2,
+    h3,
+    p {
+      orphans: 3;
+      widows: 3;
+    }
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+    .table {
+      border-collapse: collapse !important;
+    }
+    .table td,
+    .table th {
+      background-color: #fff !important;
+    }
+    .table-bordered td,
+    .table-bordered th {
+      border: 1px solid #ddd !important;
+    }
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  a {
+    color: text-decoration;
+  }
+  a:focus,
+  a:hover {
+    color: #23527c;
+    text-decoration: underline;
+  }
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  figure {
+    margin: 0;
+  }
+  img {
+    vertical-align: middle;
+  }
+  h2,
+  h3,
+  h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h2,
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    margin: 0 0 10px;
+  }
+  mark {
+    padding: 0.2em;
+    background-color: #fcf8e3;
+  }
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col-sm-4,
+  .col-sm-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  @media (min-width: 768px) {
+    .col-sm-4,
+    .col-sm-8 {
+      float: left;
+    }
+    .col-sm-8 {
+      width: 66.66666667%;
+    }
+    .col-sm-4 {
+      width: 33.33333333%;
+    }
+  }
+  table {
+    background-color: transparent;
+  }
+  th {
+    text-align: left;
+  }
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .table > tbody > tr > td,
+  .table > tbody > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+  }
+  .table-bordered {
+    border: 1px solid #ddd;
+  }
+  .table-bordered > tbody > tr > td,
+  .table-bordered > tbody > tr > th {
+    border: 1px solid #ddd;
+  }
+  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+  }
+  input[type="checkbox"]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .btn:active:focus,
+  .btn:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  .btn:focus,
+  .btn:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  }
+  .collapse {
+    display: none;
+  }
+  .collapse.in {
+    display: block;
+  }
+  .container:after,
+  .container:before,
+  .row:after,
+  .row:before {
+    display: table;
+    content: " ";
+  }
+  .container:after,
+  .row:after {
+    clear: both;
+  }
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/2ptilh6k/lu45.css ; media=all */
+@media all {
+  .btn:active {
+    background-image: none;
+  }
+}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.7.0 ; media=all */
+@media all {
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .fa-plus:before {
+    content: "\f067";
+  }
+  .fa-minus:before {
+    content: "\f068";
+  }
+  .fa-angle-double-right:before {
+    content: "\f101";
+  }
+  .fa-angle-double-down:before {
+    content: "\f103";
+  }
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/epa9ef84/lu45.css ; media=all */
+@media all {
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/7uxrqgny/lu45.css ; media=all */
+@media all {
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    font-weight: 400;
+  }
+  @media (max-width: 500px) {
+    p {
+      font-size: 16px;
+    }
+  }
+  a {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  a:hover {
+    color: text-decoration;
+  }
+  a:focus,
+  a:visited {
+    outline: none;
+    text-decoration: none;
+  }
+  h2,
+  h3,
+  h4 {
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 0 0 40px;
+  }
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 32px;
+      line-height: 1.3;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 0 0 30px;
+  }
+  div > h3 {
+    margin: 20px 0 30px;
+  }
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 28px;
+    }
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 20px 0 20px;
+  }
+  div > h4 {
+    margin: 0 0 30px;
+  }
+  @media (max-width: 767px) {
+    h4 {
+      font-size: 24px;
+    }
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul li {
+    margin-bottom: 5px;
+  }
+  img {
+    max-width: 100%;
+  }
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table > tbody > tr > td,
+  .table > tbody > tr > th {
+    vertical-align: middle;
+    padding: 10px;
+  }
+  table tr:nth-child(even) {
+    //background-color:#f2f2f2;}
+    table tr:hover {
+      background-color: #ddd;
+    }
+    table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      color: #fff;
+    }
+    .inner_page {
+      padding: 60px 0px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px 0px;
+      box-sizing: border-box;
+      background: none;
+      outline: none;
+      resize: none;
+      border: 0;
+      font-size: 13px;
+      font-family: "Poppins", sans-serif;
+      transition: all 0.3s;
+      border-bottom: 2px solid #bebed2;
+    }
+    .home_form form {
+      margin: 0 auto;
+      padding: 30px 30px 0;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 6px 12px 0 rgb(0 0 0 / 15%);
+    }
+    .home_form form label {
+      width: 100%;
+    }
+    .home_form input[type="text"],
+    .home_form input[type="email"],
+    .home_form input[type="tel"],
+    .home_form textarea,
+    .home_form select {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      font-size: 14px;
+      height: auto;
+      margin: 0;
+      outline: 0;
+      padding: 15px;
+      width: 100%;
+      background-color: #e8eeef;
+      color: #8a97a0;
+      box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset;
+      margin-bottom: 15px;
+    }
+
+    .home_form input[type="checkbox"] {
+      margin: 0 4px 8px 0;
+    }
+    .home_form select {
+      padding: 6px;
+      height: 52px;
+      border-radius: 2px;
+    }
+    .home_form select option {
+      background: #bf2928;
+      color: #fff;
+    }
+    @media only screen and (max-width: 567px) {
+      .home_form .wpcf7 form .wpcf7-response-output {
+        display: inline-block;
+        margin: 0 0 20px;
+      }
+      *,
+      *:after,
+      *:before {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+    }
+  }
+  /*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/d34de45/luqd.css ; media=all */
+  @media all {
+    .vc_row:after,
+    .vc_row:before {
+      content: " ";
+      display: table;
+    }
+    .vc_row:after {
+      clear: both;
+    }
+    .vc_column_container {
+      width: 100%;
+    }
+    .vc_row {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .vc_col-sm-12,
+    .vc_col-sm-3,
+    .vc_col-sm-4,
+    .vc_col-sm-6,
+    .vc_col-sm-8 {
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    @media (min-width: 768px) {
+      .vc_col-sm-12,
+      .vc_col-sm-3,
+      .vc_col-sm-4,
+      .vc_col-sm-6,
+      .vc_col-sm-8 {
+        float: left;
+      }
+      .vc_col-sm-12 {
+        width: 100%;
+      }
+      .vc_col-sm-8 {
+        width: 66.66666667%;
+      }
+      .vc_col-sm-6 {
+        width: 50%;
+      }
+      .vc_col-sm-4 {
+        width: 33.33333333%;
+      }
+      .vc_col-sm-3 {
+        width: 25%;
+      }
+    }
+    .vc_clearfix:after,
+    .vc_clearfix:before {
+      content: " ";
+      display: table;
+    }
+    .vc_clearfix:after {
+      clear: both;
+    }
+    .vc_clearfix:after,
+    .vc_clearfix:before {
+      content: " ";
+      display: table;
+    }
+    .vc_clearfix:after {
+      clear: both;
+    }
+    .wpb_text_column :last-child,
+    .wpb_text_column p:last-child {
+      margin-bottom: 0;
+    }
+    .wpb_content_element {
+      margin-bottom: 35px;
+    }
+    .vc_row[data-vc-full-width] {
+      -webkit-transition: opacity 0.5s ease;
+      -o-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease;
+      overflow: hidden;
+    }
+    .vc_row.vc_row-flex {
+      box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    .vc_row.vc_row-flex > .vc_column_container {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .vc_row.vc_row-flex > .vc_column_container > .vc_column-inner {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      z-index: 1;
+    }
+    @media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .vc_row.vc_row-flex > .vc_column_container > .vc_column-inner > * {
+        min-height: 1em;
+      }
+    }
+    .vc_row.vc_row-flex::after,
+    .vc_row.vc_row-flex::before {
+      display: none;
+    }
+    .vc_row.vc_row-o-equal-height > .vc_column_container {
+      -webkit-box-align: stretch;
+      -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+    }
+    .vc_row.vc_row-o-content-middle > .vc_column_container > .vc_column-inner {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+    .vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height)
+      > .vc_column_container {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    .vc_column-inner::after,
+    .vc_column-inner::before {
+      content: " ";
+      display: table;
+    }
+    .vc_column-inner::after {
+      clear: both;
+    }
+    .vc_row.vc_column-gap-15 {
+      margin-left: -22.5px;
+      margin-right: -22.5px;
+    }
+    .vc_row.vc_column-gap-15 > .vc_column_container {
+      padding: 7.5px;
+    }
+    .vc_row.vc_column-gap-30 {
+      margin-left: -30px;
+      margin-right: -30px;
+    }
+    .vc_row.vc_column-gap-30 > .vc_column_container {
+      padding: 15px;
+    }
+    .vc_column_container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .vc_column_container > .vc_column-inner {
+      box-sizing: border-box;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+    }
+    .vc_row-has-fill
+      + .vc_row-full-width
+      + .vc_row
+      > .vc_column_container
+      > .vc_column-inner,
+    .vc_row-has-fill > .vc_column_container > .vc_column-inner {
+      padding-top: 35px;
+    }
+    .vc_row.vc_row-o-equal-height > .vc_column_container {
+      -webkit-box-align: stretch;
+      -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+    }
+    .wpb_single_image a {
+      border: none;
+      outline: 0;
+    }
+    .wpb_single_image img {
+      height: auto;
+      max-width: 100%;
+      vertical-align: top;
+    }
+    .wpb_single_image .vc_single_image-wrapper {
+      display: inline-block;
+      vertical-align: top;
+      max-width: 100%;
+    }
+    .wpb_single_image .vc_single_image-wrapper.vc_box_rounded,
+    .wpb_single_image .vc_single_image-wrapper.vc_box_rounded img {
+      border-radius: 4px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    .wpb_single_image.vc_align_center {
+      text-align: center;
+    }
+    .wpb_single_image.vc_align_left {
+      text-align: left;
+    }
+    .wpb_single_image .vc_figure {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      max-width: 100%;
+    }
+    .wpb_animate_when_almost_visible {
+      opacity: 0;
+    }
+    .wpb_start_animation {
+      opacity: 1;
+    }
+  }
+  /*! CSS Used from: Embedded */
+  .vc_custom_1685694914950 {
+    margin-bottom: 0px !important;
+  }
+  .vc_custom_1686819496841 {
+    background-color: #ffffff !important;
+  }
+  .vc_custom_1685522696870 {
+    margin-bottom: 30px !important;
+    background-color: #ffffff !important;
+  }
+  .vc_custom_1688288752602 {
+    background-color: #ffffff !important;
+  }
+  .vc_custom_1685695033228 {
+    margin-bottom: 0px !important;
+  }
+  .vc_custom_1688288780373 {
+    border-bottom-width: 0px !important;
+    background-color: #ffffff !important;
+  }
+  .vc_custom_1685696768983 {
+    border-bottom-width: 0px !important;
+    padding-top: 40px !important;
+    padding-bottom: 150px !important;
+    background-color: #fe4d00 !important;
+  }
+  .vc_custom_1685697015602 {
+    margin-top: -180px !important;
+  }
+  .vc_custom_1685695392057 {
+    margin-bottom: 0px !important;
+  }
+  .vc_custom_1688383562902 {
+    margin-left: 15px !important;
+  }
+  .vc_custom_1685695056639 {
+    margin-left: 15px !important;
+    padding-bottom: 0px !important;
+  }
+  .vc_custom_1685695049695 {
+    margin-left: 15px !important;
+    padding-bottom: 0px !important;
+  }
+  /*! CSS Used from: Embedded */
+  .sticky_box {
+    max-width: 360px;
+  }
+  .inner_page {
+    padding: 60px 0px;
+    background: #fff;
+  }
+  .sticky_box form label {
+    font-size: 12px;
+  }
+  @media (max-width: 767px) {
+    .sticky_box {
+      position: relative !important;
+    }
+  }
+  /*! CSS Used from: Embedded */
+  #wpsm_accordion_2303 .wpsm_panel-title {
+    margin: 0px !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+  }
+  #wpsm_accordion_2303 .wpsm_panel-title a {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    font-size: 18px !important;
+    font-family: sans-serif !important;
+    color: #ffffff !important;
+    border-bottom: 0px !important;
+  }
+  #wpsm_accordion_2303 .wpsm_panel-title a:focus {
+    outline: 0px !important;
+  }
+  #wpsm_accordion_2303 .wpsm_panel-title a:hover,
+  #wpsm_accordion_2303 .wpsm_panel-title a:focus {
+    color: #ffffff !important;
+  }
+  // #wpsm_accordion_2303 .wpsm_panel-default > .wpsm_panel-heading {
+  //   color: #ffffff !important;
+  //   background-color: !important;
+  //   border-color: !important;
+  //   border-top-left-radius: 0px;
+  //   border-top-right-radius: 0px;
+  // }
+  #wpsm_accordion_2303 .wpsm_panel-default {
+    border: 1px solid transparent !important;
+  }
+  #wpsm_accordion_2303 {
+    margin-bottom: 20px;
+    overflow: hidden;
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  #wpsm_accordion_2303 .ac_title_class {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #wpsm_accordion_2303 .wpsm_panel {
+    overflow: hidden;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+  #wpsm_accordion_2303 .wpsm_panel + .wpsm_panel {
+    margin-top: 5px;
+  }
+  #wpsm_accordion_2303 .wpsm_panel-body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-top-color: !important;
+    font-size: 16px !important;
+    font-family: sans-serif !important;
+    overflow: hidden;
+    border: 2px solid !important;
+  }
+  #wpsm_accordion_2303 .ac_open_cl_icon {
+    background-color: !important;
+    color: #ffffff !important;
+    float: right !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    line-height: 1 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    display: inline-block !important;
+  }
+  /*! CSS Used from: Embedded */
+  #wpsm_accordion_2306 .wpsm_panel-title {
+    margin: 0px !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+  }
+  #wpsm_accordion_2306 .wpsm_panel-title a {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    font-size: 18px !important;
+    font-family: sans-serif !important;
+    color: #000000 !important;
+    border-bottom: 0px !important;
+  }
+  #wpsm_accordion_2306 .wpsm_panel-title a:focus {
+    outline: 0px !important;
+  }
+  #wpsm_accordion_2306 .wpsm_panel-title a:hover,
+  #wpsm_accordion_2306 .wpsm_panel-title a:focus {
+    color: #000000 !important;
+  }
+  #wpsm_accordion_2306 .wpsm_panel-default > .wpsm_panel-heading {
+    color: #000000 !important;
+    background-color: #e8e8e8 !important;
+    border-color: #e8e8e8 !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  #wpsm_accordion_2306 .wpsm_panel-default {
+    border: 1px solid transparent !important;
+  }
+  #wpsm_accordion_2306 {
+    margin-bottom: 20px;
+    overflow: hidden;
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  #wpsm_accordion_2306 .ac_title_class {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #wpsm_accordion_2306 .wpsm_panel {
+    overflow: hidden;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+  #wpsm_accordion_2306 .wpsm_panel + .wpsm_panel {
+    margin-top: 5px;
+  }
+  #wpsm_accordion_2306 .wpsm_panel-body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-top-color: #e8e8e8 !important;
+    font-size: 16px !important;
+    font-family: sans-serif !important;
+    overflow: hidden;
+    border: 2px solid #e8e8e8 !important;
+  }
+  #wpsm_accordion_2306 .ac_open_cl_icon {
+    background-color: #e8e8e8 !important;
+    color: #000000 !important;
+    float: right !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    line-height: 1 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    display: inline-block !important;
+  }
+  /*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/32qlabuk/m6jb.css ; media=all */
+  @media all {
+    .animated {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+    .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+    }
+  }
+  /*! CSS Used keyframes */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes spin {
+    0% {
+      -moz-transform: rotate(0deg);
+    }
+    100% {
+      -moz-transform: rotate(359deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+  @keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+  }
+  @keyframes blink {
+    from {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /*! CSS Used fontfaces */
+  @font-face {
+    font-family: "FontAwesome";
+    src: url(https://thenext.edu.np/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/fonts/fontawesome-webfont.eot?v=4.1.0);
+    src: url(https://thenext.edu.np/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0)
+        format("embedded-opentype"),
+      url(https://thenext.edu.np/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0)
+        format("woff"),
+      url(https://thenext.edu.np/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/fonts/fontawesome-webfont.ttf?v=4.1.0)
+        format("truetype"),
+      url(https://thenext.edu.np/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular)
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "FontAwesome";
+    src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
+        format("embedded-opentype"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0")
+        format("woff2"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0")
+        format("woff"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0")
+        format("truetype"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiGyp8kv8JHgFVrLPTufntAKPY.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiGyp8kv8JHgFVrLPTucHtA.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJnecmNE.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323,
+      U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+      format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+      U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+      U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+      U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/eetkdcqw/lu45.css ; media=all */
+  @media all {
+    fieldset {
+      border: 1px solid #c0c0c0;
+      margin: 0 2px;
+      padding: 0.35em 0.625em 0.75em;
+    }
+    legend {
+      border: 0;
+      padding: 0;
+    }
+    button,
+    input,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      margin: 0;
+    }
+    button,
+    input {
+      line-height: normal;
+    }
+    button,
+    select {
+      text-transform: none;
+    }
+    button {
+      -webkit-appearance: button;
+      cursor: pointer;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      box-sizing: border-box;
+      padding: 0;
+    }
+    textarea {
+      overflow: auto;
+      vertical-align: top;
+    }
+    *,
+    *:after,
+    *:before {
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+  }
+  /*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=3.3.7 ; media=all */
+  @media all {
+    button,
+    input,
+    select,
+    textarea {
+      margin: 0;
+      font: inherit;
+      color: inherit;
+    }
+    button {
+      overflow: visible;
+    }
+    button,
+    select {
+      text-transform: none;
+    }
+    button {
+      -webkit-appearance: button;
+      cursor: pointer;
+    }
+    input {
+      line-height: normal;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0;
+    }
+    fieldset {
+      padding: 0.35em 0.625em 0.75em;
+      margin: 0 2px;
+      border: 1px solid silver;
+    }
+    legend {
+      padding: 0;
+      border: 0;
+    }
+    textarea {
+      overflow: auto;
+    }
+    @media print {
+      *,
+      :after,
+      :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: 0 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+      }
+    }
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    :after,
+    :before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    button,
+    input,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+    .row {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-6,
+    .col-md-12,
+    .col-md-3,
+    .col-md-4,
+    .col-md-6,
+    .col-sm-12,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-6 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    @media (min-width: 768px) {
+      .col-sm-12,
+      .col-sm-3,
+      .col-sm-4,
+      .col-sm-6 {
+        float: left;
+      }
+      .col-sm-12 {
+        width: 100%;
+      }
+      .col-sm-6 {
+        width: 50%;
+      }
+      .col-sm-4 {
+        width: 33.33333333%;
+      }
+      .col-sm-3 {
+        width: 25%;
+      }
+    }
+    @media (min-width: 992px) {
+      .col-md-12,
+      .col-md-3,
+      .col-md-4,
+      .col-md-6 {
+        float: left;
+      }
+      .col-md-12 {
+        width: 100%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-4 {
+        width: 33.33333333%;
+      }
+      .col-md-3 {
+        width: 25%;
+      }
+    }
+    @media (min-width: 1200px) {
+      .col-lg-12,
+      .col-lg-2,
+      .col-lg-3,
+      .col-lg-4,
+      .col-lg-6 {
+        float: left;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-4 {
+        width: 33.33333333%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
+      .col-lg-2 {
+        width: 16.66666667%;
+      }
+    }
+    fieldset {
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+      border: 0;
+    }
+    legend {
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+      font-size: 21px;
+      line-height: inherit;
+      color: #333;
+      border: 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    label {
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      margin: 4px 0 0;
+      margin-top: 1px\9;
+      line-height: normal;
+    }
+    input[type="checkbox"]:focus,
+    input[type="radio"]:focus {
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px;
+    }
+    .radio {
+      position: relative;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .row:after,
+    .row:before {
+      display: table;
+      content: " ";
+    }
+    .row:after {
+      clear: both;
+    }
+  }
+  /*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/7uxrqgny/lu45.css ; media=all */
+  @media all {
+    .inner_page {
+      padding: 60px 0px;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px 0px;
+      box-sizing: border-box;
+      background: none;
+      outline: none;
+      resize: none;
+      border: 0;
+      font-size: 13px;
+      font-family: "Poppins", sans-serif;
+      transition: all 0.3s;
+      border-bottom: 2px solid #bebed2;
+    }
+    @media only screen and (max-width: 567px) {
+      .radio {
+        display: inline;
+      }
+      #loader {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.75)
+          url(http://www.marcorpsa.com/ee/images/loading2.gif) no-repeat center
+          center;
+        z-index: 10000;
+      }
+      *,
+      *:after,
+      *:before {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+    }
+  }
+  /*! CSS Used from: https://thenext.edu.np/wp-content/themes/thenext/css/mycss.css */
+  .wpcf7-textarea {
+    color: black;
+    width: 100%;
+    height: 200px;
+    line-height: 44px;
+    padding: 0px 10px;
+    border: 1px solid #dadada;
+    background: #fff;
+    margin-bottom: 15px;
+    font-weight: 800;
+  }
+  .wpcf7-textarea {
+    color: black;
+    width: 100%;
+    height: 200px;
+    line-height: 44px;
+    padding: 0px 10px;
+    border: 1px solid #dadada;
+    background: #fff;
+    margin-bottom: 15px;
+    font-weight: 800;
+  }
+  /*! CSS Used from: Embedded */
+  .visitor_enquiry_form form {
+    margin: 10px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px 0 rgb(0 0 0 / 15%);
+    max-width: 1200px;
+  }
+  .visitor_enquiry_form input[type="text"],
+  .visitor_enquiry_form textarea,
+  .visitor_enquiry_form select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+  }
+  .visitor_enquiry_form input[type="radio"],
+  .visitor_enquiry_form input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  .visitor_enquiry_form select {
+    padding: 6px;
+    height: 52px;
+    border-radius: 2px;
+  }
+  .visitor_enquiry_form select option {
+    background: #fe4d00;
+    color: #fff;
+  }
+  .visitor_enquiry_form button {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #fe4d00;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #cacaca;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
+    margin-bottom: 10px;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .visitor_enquiry_form fieldset {
+    margin-bottom: 15px;
+    border: none;
+  }
+  .visitor_enquiry_form legend {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fe4d00;
+  }
+  .visitor_enquiry_form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .visitor_enquiry_form label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  .visitor_enquiry_form .number {
+    background-color: #fe4d00;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+  }
+  .visitor_enquiry_form .box {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .visitor_enquiry_form .box1 {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .visitor_enquiry_form .box input {
+    margin: 0 11px 8px 0;
+  }
+  .visitor_enquiry_form .box label,
+  .visitor_enquiry_form .box1 label {
+    margin-right: 15px;
+    font-weight: 600;
+  }
+  .radio {
+    display: inline;
+  }
+  .visitor_enquiry_form .box1 {
+    margin-bottom: 15px;
+  }
+  #loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75)
+      url(https://www.marcorpsa.com/ee/images/loading2.gif) no-repeat center
+      center;
+    z-index: 10000;
+  }
+  /*! CSS Used fontfaces */
+}
+.navlist li a {
+  text-decoration: none !important;
+}
+.navlist li a:hover {
+  color: #fe4d00;
+}
+.navlist .active {
+  color: #fe4d00 !important;
+}
+.desitinations a {
+  display: block !important;
+}
+.teams div img {
+  max-height: 300px;
+}
+.aboard-list {
+  gap: 20px;
+  width: 200px;
+  padding: 20px;
+}
+.aboard-list a {
+  font-size: 16px !important;
+}
+* {
+  font-family: "Poppins" !important;
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/gqkyq3p/lu45.css ; media=all */
+@media all {
+  .wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #00a0d2;
+  }
+  .wpcf7 form.init .wpcf7-response-output {
+    display: none;
+  }
+  .wpcf7-form-control-wrap {
+    position: relative;
+  }
+  .wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+  }
+  .wpcf7-list-item-label::before,
+  .wpcf7-list-item-label::after {
+    content: " ";
+  }
+  .wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+  }
+  .wpcf7-spinner::before {
+    content: "";
+    position: absolute;
+    background-color: #fbfbfc;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wpcf7-spinner::before {
+      animation-name: blink;
+      animation-duration: 2000ms;
+    }
+  }
+  .wpcf7 .wpcf7-submit:disabled {
+    cursor: not-allowed;
+  }
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="tel"] {
+    direction: ltr;
+  }
+}
+/*! CSS Used from: Embedded */
+.wpcf7 .wpcf7-recaptcha iframe {
+  margin-bottom: 0;
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/eetkdcqw/lu45.css ; media=all */
+@media all {
+  #altEmail_container,
+  .altEmail_container {
+    position: absolute !important;
+    overflow: hidden !important;
+    display: inline !important;
+    height: 1px !important;
+    width: 1px !important;
+    z-index: -1000 !important;
+  }
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+  }
+  input {
+    line-height: normal;
+  }
+  select {
+    text-transform: none;
+  }
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  textarea {
+    overflow: auto;
+    vertical-align: top;
+  }
+  *,
+  *:after,
+  *:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=3.3.7 ; media=all */
+@media all {
+  input,
+  select,
+  textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+  }
+  select {
+    text-transform: none;
+  }
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  input {
+    line-height: normal;
+  }
+  input[type="checkbox"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  textarea {
+    overflow: auto;
+  }
+  @media print {
+    *,
+    :after,
+    :before {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: 0 0 !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+    p {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  p {
+    margin: 0 0 10px;
+  }
+  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+  }
+  input[type="checkbox"]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+}
+/*! CSS Used from: https://thenext.edu.np/wp-content/cache/wpfc-minified/7uxrqgny/lu45.css ; media=all */
+@media all {
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    font-weight: 400;
+  }
+  @media (max-width: 500px) {
+    p {
+      font-size: 16px;
+    }
+  }
+  textarea {
+    width: 100%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2;
+  }
+  .home_form form {
+    margin: 0 auto;
+    padding: 30px 30px 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px 0 rgb(0 0 0 / 15%);
+  }
+  .home_form form label {
+    width: 100%;
+  }
+  .home_form input[type="text"],
+  .home_form input[type="email"],
+  .home_form input[type="tel"],
+  .home_form textarea,
+  .home_form select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset;
+    margin-bottom: 15px;
+  }
+  .home_form input[type="submit"] {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #9e0105;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #cacaca;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgb(255 255 255 / 10%) inset;
+    margin: 15px auto;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+  }
+  .home_form input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  .home_form select {
+    padding: 6px;
+    height: 52px;
+    border-radius: 2px;
+  }
+  .home_form select option {
+    background: #bf2928;
+    color: #fff;
+  }
+  @media only screen and (max-width: 567px) {
+    .home_form .wpcf7 form .wpcf7-response-output {
+      display: inline-block;
+      margin: 0 0 20px;
+    }
+    *,
+    *:after,
+    *:before {
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.sticky_box form label {
+  font-size: 12px;
+}
+/*! CSS Used keyframes */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiGyp8kv8JHgFVrLPTufntAKPY.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiGyp8kv8JHgFVrLPTucHtA.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJnecmNE.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+#wpsm_accordion_2303 .wpsm_panel-heading {
+  padding: 0px !important;
+}
+#wpsm_accordion_2303 .wpsm_panel-title {
+  margin: 0px !important;
+  text-transform: none !important;
+  line-height: 1 !important;
+}
+#wpsm_accordion_2303 .wpsm_panel-title a {
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+  padding: 0px;
+  font-size: 18px !important;
+  font-family: sans-serif !important;
+  color: #ffffff !important;
+  border-bottom: 0px !important;
+}
+#wpsm_accordion_2303 .wpsm_panel-title a:focus {
+  outline: 0px !important;
+}
+#wpsm_accordion_2303 .wpsm_panel-title a:hover,
+#wpsm_accordion_2303 .wpsm_panel-title a:focus {
+  color: #ffffff !important;
+}
+#wpsm_accordion_2303 .acc-a {
+  color: #ffffff !important;
+  // background-color: #9e0105 !important;
+  border-color: #ddd;
+}
+#wpsm_accordion_2303 .wpsm_panel-default > .wpsm_panel-heading {
+  color: #ffffff !important;
+
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#wpsm_accordion_2303 .wpsm_panel-default {
+  border: 1px solid transparent !important;
+}
+#wpsm_accordion_2303 {
+  margin-bottom: 20px;
+  overflow: hidden;
+  float: none;
+  width: 100%;
+  display: block;
+}
+#wpsm_accordion_2303 .ac_title_class {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#wpsm_accordion_2303 .wpsm_panel {
+  overflow: hidden;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+#wpsm_accordion_2303 .wpsm_panel + .wpsm_panel {
+  margin-top: 5px;
+}
+#wpsm_accordion_2303 .wpsm_panel-body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-top-color: #9e0105 !important;
+  font-size: 16px !important;
+  font-family: sans-serif !important;
+  overflow: hidden;
+  border: 2px solid #9e0105 !important;
+}
+#wpsm_accordion_2303 .ac_open_cl_icon {
+  // background-color: #9e0105 !important;
+  color: #ffffff !important;
+  float: right !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  line-height: 1 !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  display: inline-block !important;
+}
+#home_register {
+  background: #fe4d00;
+}
+.wpcf7-select option {
+  background: #fe4d00 !important;
+}
+.desitinations a:hover {
+  scale: 0.9 !important;
+}
